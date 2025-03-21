@@ -1,7 +1,7 @@
 import { IPokemonDetailResponse } from "@/interface/pokemonDetail";
-import { pokemonListServices, pokemonDetailServices } from "@/services";
-import React, { useEffect, useState } from "react";
-import { Link, Route, Routes, useParams } from "react-router-dom";
+import {  pokemonDetailServices } from "@/services";
+import  { useEffect, useState } from "react";
+import { Link, useParams } from "react-router-dom";
 
 type pokemonType = {
   data: IPokemonDetailResponse | undefined;

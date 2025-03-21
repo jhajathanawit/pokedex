@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import { createBrowserRouter, Link, RouterProvider } from 'react-router-dom'
+
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import HomePage from '@/pages/home';
 import DetailPage from '@/pages/detail';
 
