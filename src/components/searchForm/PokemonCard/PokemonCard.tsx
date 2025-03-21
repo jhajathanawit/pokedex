@@ -11,7 +11,7 @@ interface PokemonProps {
 
 const PokemonCard = ({ image, name, id, types }: PokemonProps) => {
   return (
-    <div className="max-w-sm p-[16px] bg-[#253641] overflow-hidden rounded-[20px] shadow dark:bg-gray-800 dark:border-gray-700 max-w-[275px] w-full m-[auto]">
+    <div className=" p-[16px] bg-[#253641] overflow-hidden rounded-[20px] shadow dark:bg-gray-800 dark:border-gray-700 max-w-[275px] w-full m-[auto]">
       <div className="bg-[url('/image/poke-card-bg.png')] bg-center aspect-square w-full bg-cover rounded-[20px]">
         <Link to={`/detail/${name}`} className="">
           <img
